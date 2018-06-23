@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "372959173703",
+    "firebase_url": "https://doctor-calendar-ff558.firebaseio.com",
+    "project_id": "doctor-calendar-ff558",
+    "storage_bucket": "doctor-calendar-ff558.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372959173703:android:c25913211aeba6e2",
+        "android_client_info": {
+          "package_name": "doctorcalendar.com.br.meuconsultorio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372959173703-jjbk77kv4hn24tcalbbv4aosp0curgoi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "doctorcalendar.com.br.meuconsultorio",
+            "certificate_hash": "ccff0f3db2ce53674ebea7ac43d964c2faabe3d7"
+          }
+        },
+        {
+          "client_id": "372959173703-d32rufmvhc0o9kjepaiikiq0ifp9a5ft.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "372959173703-d32rufmvhc0o9kjepaiikiq0ifp9a5ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9OnRsh1eRf5fZYjpDO510gt9AzTIdKw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372959173703-d32rufmvhc0o9kjepaiikiq0ifp9a5ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

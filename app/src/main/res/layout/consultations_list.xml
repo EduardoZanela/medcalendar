@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:ignore="OnClick">
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_user" />
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/doctor_name"
+            android:textSize="12pt"
+            android:textColor="@color/title_black"
+            android:text="Alexandre Santos"
+            android:fontFamily="@font/nunito_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/doctor_specialization"
+            android:textSize="8pt"
+            android:textColor="@color/title_black"
+            android:text="Cardiologista"
+            android:fontFamily="@font/nunito_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/health_insurance"
+            android:textSize="6pt"
+            android:textColor="@color/ic_search_gray"
+            android:text="Plano: Unimed"
+            android:fontFamily="@font/nunito_extra_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/date_time"
+            android:textSize="6pt"
+            android:textColor="@color/ic_search_gray"
+            android:text="Segunda 20 de abril de 2018  11:40"
+            android:fontFamily="@font/nunito_extra_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <ImageView
+        android:id="@+id/map"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_map_marker_alt"/>
+</LinearLayout>

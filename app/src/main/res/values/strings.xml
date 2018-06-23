@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Agenda Medica</string>
+    <string name="agenda_medica">Agenda Medica</string>
+    <string name="medica">Medica</string>
+    <string name="login_facebook">Acessar com facebook</string>
+    <string name="login_google">Acessar com Google</string>
+    <string name="or">OU</string>
+    <string name="title_activity_search_doctor">Agendar Consulta</string>
+    <string name="sintomas">Sintomas</string>
+    <string name="plano_de_saude">Plano de Saude</string>
+    <string name="data_e_hora">Data e hora</string>
+    <string name="select_a_date">Please select a date</string>
+    <string name="no_more_free_times">NO MORE FREE TIMES</string>
+    <string name="schedule">Agendar</string>
+    <string name="insurances">Planos: </string>
+    <string name="sair">Sair</string>
+    <string name="add">Nova Consulta</string>
+    <string name="already_have_consultation">Você ja possui uma consulta neste horário</string>
+    <string name="insurance_main">Plano:</string>
+    <string name="sign_in_sing_up">Sign in | Sing up</string>
+    <string name="available_soon">Disponível em breve</string>
+
+    <string-array name="country_arrays">
+        <item>7:00</item>
+        <item>7:30</item>
+        <item>8:00</item>
+        <item>8:30</item>
+    </string-array>
+</resources>
